@@ -1,0 +1,58 @@
+{
+
+  "main": "module.js",
+
+  "type": "module",
+
+  "scripts": {
+
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+
+  },
+
+  "jest": {
+
+    "transform": {}
+
+  },
+
+  "name": "jest_unit_test",
+
+  "version": "1.0.0",
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/VianniR/Jest_Unit_Test.git"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "bugs": {
+
+    "url": "https://github.com/VianniR/Jest_Unit_Test/issues"
+
+  },
+
+  "homepage": "https://github.com/VianniR/Jest_Unit_Test#readme",
+
+  "description": "",
+
+  "dependencies": {
+
+    "jest": "^29.7.0"
+
+  },
+
+  "devDependencies": {
+
+    "cross-env": "^7.0.3"
+
+  }
+
+}
+
